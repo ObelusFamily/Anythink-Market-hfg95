@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+First clone this repository from github 
+Make sure you have installed docker
+Then, run it in your local database using docker-compose up command
+And move to http://localhost:3000/api/ping and check whether it is works.
+If everything is fine then move to http://localhost:3000/register and add your username and password over there to sign up.
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
