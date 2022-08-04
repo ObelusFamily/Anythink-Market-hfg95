@@ -13,7 +13,7 @@ var User = require('../models/User')
 for (let i = 0; i < 100; i++) {
     const user = new User({
         name: faker.internet.userName(),
-        email: faker.internet.email()
+        email: faker.internet.email(),
     })
 
     user.save()
@@ -22,7 +22,7 @@ for (let i = 0; i < 100; i++) {
         const item = new Item({
             title: user.name,
             description: faker.random.words(),
-            image: faker.image.abstract()
+            image: faker.image.abstract(),
         })
         item.save()
     })
