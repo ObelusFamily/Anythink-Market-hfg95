@@ -1,6 +1,7 @@
 {
   "name": "anythink-market-backend",
   "version": "1.0.0",
+  "type": "module",
   "main": "app.js",
   "engines": {
     "node": "^16"
