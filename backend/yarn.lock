@@ -2146,7 +2146,7 @@
     "lodash.get" "^4.0.2"
     "lodash.merge" "^4.6.2"
 
-"mongoose@5.12.5":
+"mongoose@*", "mongoose@^5.12.5", "mongoose@^6.0.0":
   "integrity" "sha512-VVoqiELZcoI2HhHDuPpfN3qmExrtIeXSWNb1nihf4w1SJoWGXilU/g2cQgeeSMc2vAHSZd5Nv2sNPvbZHFw+pg=="
   "resolved" "https://registry.npmjs.org/mongoose/-/mongoose-5.12.5.tgz"
   "version" "5.12.5"
